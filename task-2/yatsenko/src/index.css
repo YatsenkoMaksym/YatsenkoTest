@@ -15,12 +15,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-img {
+#ruller img {
   border: 5px solid rgb(68, 68, 68);
   border-radius: 14px; 
   /*! if image was meant to be "like full circle" round, change it for 99999px */
 }
-img:hover {
+#ruller img:hover {
   /*! It's a bad practice to do VVV so, if it's necessary to do even for every 4th, we can add more specificity, to override the selector below*/
   border-color: yellow !important; 
   transform: rotate(40deg);
