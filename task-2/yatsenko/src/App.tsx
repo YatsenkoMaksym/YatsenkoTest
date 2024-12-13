@@ -11,7 +11,7 @@ import ten from "../../task-2/10.jpg";
 import eleven from "../../task-2/11.jpg";
 import twelve from "../../task-2/12.jpg";
 import { useState } from "react";
-
+import './index.css'
 function App() {
   const date = new Date();
   const imgs = document.getElementsByTagName("img")
@@ -23,7 +23,7 @@ function App() {
       <hr />
       time:{" "}
       {`${date.getDate()}:${date.getMonth()}:${date.getFullYear()} ${date.getHours()}:${date.getUTCMinutes()}`}
-      <div className="bg-red-500 grid grid-cols-4 grid-rows-3 p-5 gap-4 w-4/5 place-self-center place-items-center">
+      <div id="ruller" className="bg-slate-300 grid grid-cols-4 grid-rows-3 p-5 gap-4 w-4/5 place-self-center place-items-center">
         <img src={one} className="row-start-1" />
         <img src={two} className="row-start-1" />
         <img src={three} className="row-start-1" />
