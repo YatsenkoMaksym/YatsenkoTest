@@ -23,19 +23,19 @@ function App() {
       <hr />
       time:{" "}
       {`${date.getDate()}:${date.getMonth()}:${date.getFullYear()} ${date.getHours()}:${date.getUTCMinutes()}`}
-      <div id="ruller" className="bg-slate-300 grid grid-cols-4 grid-rows-3 p-5 gap-4 w-4/5 place-self-center place-items-center">
-        <img src={one} className="row-start-1" />
-        <img src={two} className="row-start-1" />
-        <img src={three} className="row-start-1" />
-        <img src={four} className="row-start-1" />
-        <img src={five} className="row-start-2" />
-        <img src={six} className="row-start-2" />
-        <img src={seven} className="row-start-2" />
-        <img src={eight} className="row-start-2" />
-        <img src={nine} className="row-start-3" />
-        <img src={ten} className="row-start-3" />
-        <img src={eleven} className="row-start-3" />
-        <img src={twelve} className="row-start-3" />
+      <div id="ruller" className="bg-slate-300 grid nine:grid-cols-4 nine:grid-rows-3 five:grid-cols-2 grid-cols-1 p-5 gap-4 w-4/5 place-self-center place-items-center">
+        <img src={one} className="" />
+        <img src={two} className="" />
+        <img src={three} className="" />
+        <img src={four} className="" />
+        <img src={five} className="" />
+        <img src={six} className="" />
+        <img src={seven} className="" />
+        <img src={eight} className="" />
+        <img src={nine} className="" />
+        <img src={ten} className="" />
+        <img src={eleven} className="" />
+        <img src={twelve} className="" />
         
       </div>
     </div>
