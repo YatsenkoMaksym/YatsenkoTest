@@ -15,7 +15,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-#ruller img {
+#ruller div img {
   border: 5px solid rgb(68, 68, 68);
   border-radius: 14px; 
   /*! if image was meant to be "like full circle" round, change it for 99999px */
@@ -27,6 +27,6 @@
   transition: 1s ease-in-out;
 }
 
-#ruller :nth-last-child(4n) {
+#ruller :nth-last-child(4n) img{
   border: red 5px solid;
 }
