@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#ruller div img {
+  border: 5px solid rgb(68, 68, 68);
+  border-radius: 14px; 
+  /*! if image was meant to be "like full circle" round, change it for 99999px */
+}
+#ruller img:hover {
+  /*! It's a bad practice to do VVV so, if it's necessary to do even for every 4th, we can add more specificity, to override the selector below*/
+  border-color: yellow !important; 
+  transform: rotate(40deg);
+  transition: 1s ease-in-out;
+}
+
+#ruller :nth-last-child(4n) img{
+  border: red 5px solid;
+}
